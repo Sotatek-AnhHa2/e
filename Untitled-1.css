@@ -2,67 +2,31 @@ body {
     font-family: Arial, sans-serif;
     border: solid 2px black;
     border-radius: 10px;
-    grid-column: auto;
     width: 200px;
+    margin: auto;
 }
 .result {
     background-color: rgb(60, 60, 60);
     font-size: 3rem;
     text-align: right;
     color: white;
-    border: solid 0px black;
-    
+}
+.line {
+    display: grid;
+    padding: 10px;
+    margin: auto;
+    grid-template-columns: repeat(4, auto); 
+    text-align: center;
+    color: white;
 }
 .line-1 {
-    display: grid;
-    padding: 10px;  
-    margin: auto;
-    grid-template-columns: auto auto auto auto;
-    background-color:  rgb(60, 60, 60);
-    color: white;
-    text-align: center;
-    border: solid 0px black;
+    background-color: rgb(60, 60, 60);
 }
-.line-2 {
-    display: grid;
-    padding: 10px; 
-    margin: auto;
-    grid-template-columns: auto auto auto auto;
+.line {
     background-color: gray;
-    color: white;
-    text-align: center;
-    border: solid 0px black;
 }
-.line-3 {
-    display: grid;
-    padding: 10px; 
+button {
+    cursor: pointer;
     margin: auto;
-    grid-template-columns: auto auto auto auto;
-    background-color: gray;
-    color: white;
-    text-align: center;
-    border: solid 0px black;
-}
-.line-4 {
-    display: grid;
-    padding: 10px; 
-    margin: auto;
-    grid-template-columns: auto auto auto auto;
-    background-color: gray;
-    color: white;
-    text-align: center;
-    border: solid 0px black;
-}
-.line-5 {
-    display: grid;
-    padding: 10px; 
-    margin: auto;
-    grid-template-columns: auto auto auto auto;
-    background-color: gray;
-    color: white;
-    text-align: center; 
-    border: solid 0px black;
-}
-.grid-item {
-    grid-row: 1/span 2;
+    font-size: 15px;
 }
